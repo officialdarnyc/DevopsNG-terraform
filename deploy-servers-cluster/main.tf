@@ -51,7 +51,7 @@ resource "azurerm_virtual_machine_scale_set" "prodenv" {
   os_profile {
     computer_name_prefix = "${var.prefix}-vm"
     admin_username       = "myadmin"
-    admin_password       = "Passwword1234"
+    admin_password       = "****"
   }
 
   os_profile_linux_config {
