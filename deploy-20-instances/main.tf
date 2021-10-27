@@ -111,7 +111,7 @@ resource "azurerm_virtual_machine" "linux_vm" {
   os_profile {
     computer_name  = "linuxhost"
     admin_username = "ikenna"
-    admin_password = "P@ssw0rd1234"
+    admin_password = "****"
   }
   os_profile_linux_config {
     disable_password_authentication = false
