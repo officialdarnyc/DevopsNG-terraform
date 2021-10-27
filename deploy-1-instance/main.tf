@@ -51,7 +51,7 @@ resource "azurerm_windows_virtual_machine" "vm" {
   location            = azurerm_resource_group.rg.location
   size                = "Standard_F2"
   admin_username      = "ikenna"
-  admin_password      = "P@ssw0rd1234"
+  admin_password      = "****"
   network_interface_ids = [
     azurerm_network_interface.nic.id,
   ]
