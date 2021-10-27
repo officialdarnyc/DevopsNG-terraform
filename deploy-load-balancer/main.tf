@@ -84,7 +84,7 @@ resource "azurerm_linux_virtual_machine_scale_set" "prod" {
   sku                 = "Standard_F2"
   instances           = 1
   admin_username      = "ikenna"
-  admin_password      = "P@sstoken4567"
+  admin_password      = "****"
 
   disable_password_authentication = false
 
